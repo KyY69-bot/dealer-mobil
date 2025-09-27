@@ -1,0 +1,143 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color: #181818;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1em 2em;
+    border-bottom: 1px solid #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 5em 2em;
+    background-color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto 1.5em;
+}
+
+#cta-button {
+    background-color: #63e23c;
+    color: #fff;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cta-button:hover {
+    background-color: #1d83d6;
+}
+
+.section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 8px;
+}
+
+.fitur-container, .harga-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.fitur-item, .harga-item {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex: 1;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.harga-item h3 {
+    color: #007BFF;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.prices {
+    text-align: center;
+}
+
+
+.explore-button {
+    background-color: #63e23c;
+    color: #fff;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #a1c0e2;
+}
+
+.jpeg {
+    border-radius: 3px;
+    max-width: 100%;
+}
+
+.element {
+    margin-top: -135px;
+}
+
+
