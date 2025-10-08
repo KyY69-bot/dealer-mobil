@@ -140,4 +140,45 @@ footer {
     margin-top: -135px;
 }
 
+ /* Efek smooth scrolling */
+            html {
+                scroll-behavior: smooth;
+            }
+
+            /* Tambahan styling navbar simple */
+            nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 30px;
+                background-color: #f9f7f7;
+                color: rgb(5, 5, 5);
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+            }
+
+            nav .logo {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+
+            nav ul {
+                list-style: none;
+                display: flex;
+                gap: 20px;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+                transition: 0.3s;
+            }
+
+            nav ul li a:hover {
+                color: #f0c040; /* warna hover */
+            }
+
 
