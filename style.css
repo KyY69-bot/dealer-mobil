@@ -2,7 +2,7 @@ body {
     font-family: Helvetica;
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     color: #181818;
 }
 
@@ -180,5 +180,6 @@ footer {
             nav ul li a:hover {
                 color: #f0c040; /* warna hover */
             }
+
 
 
